@@ -1,3 +1,1 @@
-# API Summary (auto)
-
-- Source: contracts/openapi.yaml
+# API Summary (auto)`n`n- Source: contracts/openapi.yaml`n
