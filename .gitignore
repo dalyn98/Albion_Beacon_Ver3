@@ -1,0 +1,26 @@
+\
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Node (front-end auxiliary)
+node_modules/
+dist/
+
+# Env
+.env
+.env.*
+
+# Logs
+logs/
+outbox/

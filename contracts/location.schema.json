@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LocationHeartbeat",
+  "type": "object",
+  "required": [
+    "nick",
+    "region",
+    "ts"
+  ],
+  "properties": {
+    "nick": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "pos": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "x": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ]
+    },
+    "party": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 20
+    },
+    "ts": {
+      "type": "integer"
+    }
+  }
+}
